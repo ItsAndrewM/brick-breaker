@@ -20,6 +20,13 @@ public class Gameplay extends JPanel implements KeyListener, ActionListener {
     private int delay = 5;
     //play position likely, need to adjust because I changed size of game window
     private int player1 = 310;
-    private int pla
+    private int ballposX = 120;
+    private int ballposY = 350;
+    private int ballXDir = -1;
+    private int ballYDir = -2;
+
+    private BrickMap map;
+
+    
 
 }
